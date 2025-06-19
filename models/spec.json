@@ -1,0 +1,4028 @@
+{
+  "primaire": {
+    "specialities": [
+      {
+        "name": {
+          "name_fr": "Tronc Commun Primaire",
+          "name_en": "Primary Education",
+          "name_ar": "التعليم الابتدائي"
+        },
+        "levelsCount": 5,
+        "levels": [
+          {
+            "level": 1,
+            "modulesCount": 7,
+            "optionalModulesCount": 0,
+            "totalWeeklyHours": 23.5,
+            "modules": [
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 9,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 4.5,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "islamic_education",
+                "name": {
+                  "name_fr": "Éducation Islamique",
+                  "name_en": "Islamic Education",
+                  "name_ar": "التربية الإسلامية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "civic_education",
+                "name": {
+                  "name_fr": "Éducation Civique",
+                  "name_en": "Civic Education",
+                  "name_ar": "التربية المدنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "scientific_education",
+                "name": {
+                  "name_fr": "Éducation Scientifique et Technologique",
+                  "name_en": "Scientific and Technological Education",
+                  "name_ar": "التربية العلمية والتكنولوجية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "art_music_education",
+                "name": {
+                  "name_fr": "Éducation Artistique et Musicale",
+                  "name_en": "Artistic and Musical Education",
+                  "name_ar": "التربية الفنية والموسيقية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique et Sportive",
+                  "name_en": "Physical and Sports Education",
+                  "name_ar": "التربية البدنية والرياضية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "modulesCount": 7,
+            "optionalModulesCount": 0,
+            "totalWeeklyHours": 23.5,
+            "modules": [
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 9,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 4.5,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "islamic_education",
+                "name": {
+                  "name_fr": "Éducation Islamique",
+                  "name_en": "Islamic Education",
+                  "name_ar": "التربية الإسلامية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "civic_education",
+                "name": {
+                  "name_fr": "Éducation Civique",
+                  "name_en": "Civic Education",
+                  "name_ar": "التربية المدنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "scientific_education",
+                "name": {
+                  "name_fr": "Éducation Scientifique et Technologique",
+                  "name_en": "Scientific and Technological Education",
+                  "name_ar": "التربية العلمية والتكنولوجية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "art_music_education",
+                "name": {
+                  "name_fr": "Éducation Artistique et Musicale",
+                  "name_en": "Artistic and Musical Education",
+                  "name_ar": "التربية الفنية والموسيقية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique et Sportive",
+                  "name_en": "Physical and Sports Education",
+                  "name_ar": "التربية البدنية والرياضية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "modulesCount": 9,
+            "optionalModulesCount": 0,
+            "totalWeeklyHours": 28.5,
+            "modules": [
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 7.5,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 5,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 4.5,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "islamic_education",
+                "name": {
+                  "name_fr": "Éducation Islamique",
+                  "name_en": "Islamic Education",
+                  "name_ar": "التربية الإسلامية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "civic_education",
+                "name": {
+                  "name_fr": "Éducation Civique",
+                  "name_en": "Civic Education",
+                  "name_ar": "التربية المدنية"
+                },
+                "weeklyHours": 1.5,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "scientific_education",
+                "name": {
+                  "name_fr": "Éducation Scientifique et Technologique",
+                  "name_en": "Scientific and Technological Education",
+                  "name_ar": "التربية العلمية والتكنولوجية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "art_music_education",
+                "name": {
+                  "name_fr": "Éducation Artistique et Musicale",
+                  "name_en": "Artistic and Musical Education",
+                  "name_ar": "التربية الفنية والموسيقية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique et Sportive",
+                  "name_en": "Physical and Sports Education",
+                  "name_ar": "التربية البدنية والرياضية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "modulesCount": 9,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 29,
+            "modules": [
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 7,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 5,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 1
+              },
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 5,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "islamic_education",
+                "name": {
+                  "name_fr": "Éducation Islamique",
+                  "name_en": "Islamic Education",
+                  "name_ar": "التربية الإسلامية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "civic_education",
+                "name": {
+                  "name_fr": "Éducation Civique",
+                  "name_en": "Civic Education",
+                  "name_ar": "التربية المدنية"
+                },
+                "weeklyHours": 1,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "scientific_education",
+                "name": {
+                  "name_fr": "Éducation Scientifique et Technologique",
+                  "name_en": "Scientific and Technological Education",
+                  "name_ar": "التربية العلمية والتكنولوجية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "art_music_education",
+                "name": {
+                  "name_fr": "Éducation Artistique et Musicale",
+                  "name_en": "Artistic and Musical Education",
+                  "name_ar": "التربية الفنية والموسيقية"
+                },
+                "weeklyHours": 1,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique et Sportive",
+                  "name_en": "Physical and Sports Education",
+                  "name_ar": "التربية البدنية والرياضية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              }
+            ]
+          },
+          {
+            "level": 5,
+            "modulesCount": 9,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 29,
+            "modules": [
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 7,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 5,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 1
+              },
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 5,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "islamic_education",
+                "name": {
+                  "name_fr": "Éducation Islamique",
+                  "name_en": "Islamic Education",
+                  "name_ar": "التربية الإسلامية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "civic_education",
+                "name": {
+                  "name_fr": "Éducation Civique",
+                  "name_en": "Civic Education",
+                  "name_ar": "التربية المدنية"
+                },
+                "weeklyHours": 1,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "scientific_education",
+                "name": {
+                  "name_fr": "Éducation Scientifique et Technologique",
+                  "name_en": "Scientific and Technological Education",
+                  "name_ar": "التربية العلمية والتكنولوجية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "art_music_education",
+                "name": {
+                  "name_fr": "Éducation Artistique et Musicale",
+                  "name_en": "Artistic and Musical Education",
+                  "name_ar": "التربية الفنية والموسيقية"
+                },
+                "weeklyHours": 1,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique et Sportive",
+                  "name_en": "Physical and Sports Education",
+                  "name_ar": "التربية البدنية والرياضية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "cem": {
+    "specialities": [
+      {
+        "name": {
+          "name_fr": "Tronc Commun CEM",
+          "name_en": "Middle School Education",
+          "name_ar": "التعليم المتوسط"
+        },
+        "levelsCount": 4,
+        "levels": [
+          {
+            "level": 1,
+            "modulesCount": 12,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 28,
+            "modules": [
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 5,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 4,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "english_language",
+                "name": {
+                  "name_fr": "Langue Anglaise",
+                  "name_en": "English Language",
+                  "name_ar": "اللغة الإنجليزية"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 1
+              },
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 4,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "natural_sciences",
+                "name": {
+                  "name_fr": "Sciences de la Nature et de la Vie",
+                  "name_en": "Natural and Life Sciences",
+                  "name_ar": "علوم الطبيعة والحياة"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "physics_technology",
+                "name": {
+                  "name_fr": "Physique et Technologie",
+                  "name_en": "Physics and Technology",
+                  "name_ar": "الفيزياء والتكنولوجيا"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "islamic_education",
+                "name": {
+                  "name_fr": "Éducation Islamique",
+                  "name_en": "Islamic Education",
+                  "name_ar": "التربية الإسلامية"
+                },
+                "weeklyHours": 1,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "civic_education",
+                "name": {
+                  "name_fr": "Éducation Civique",
+                  "name_en": "Civic Education",
+                  "name_ar": "التربية المدنية"
+                },
+                "weeklyHours": 1,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "art_education",
+                "name": {
+                  "name_fr": "Éducation Plastique",
+                  "name_en": "Visual Arts Education",
+                  "name_ar": "التربية التشكيلية"
+                },
+                "weeklyHours": 1,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "music_education",
+                "name": {
+                  "name_fr": "Éducation Musicale",
+                  "name_en": "Music Education",
+                  "name_ar": "التربية الموسيقية"
+                },
+                "weeklyHours": 1,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique et Sportive",
+                  "name_en": "Physical and Sports Education",
+                  "name_ar": "التربية البدنية والرياضية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "modulesCount": 12,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 28,
+            "modules": [
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 5,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 4,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "english_language",
+                "name": {
+                  "name_fr": "Langue Anglaise",
+                  "name_en": "English Language",
+                  "name_ar": "اللغة الإنجليزية"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 1
+              },
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 4,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "natural_sciences",
+                "name": {
+                  "name_fr": "Sciences de la Nature et de la Vie",
+                  "name_en": "Natural and Life Sciences",
+                  "name_ar": "علوم الطبيعة والحياة"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "physics_technology",
+                "name": {
+                  "name_fr": "Physique et Technologie",
+                  "name_en": "Physics and Technology",
+                  "name_ar": "الفيزياء والتكنولوجيا"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "islamic_education",
+                "name": {
+                  "name_fr": "Éducation Islamique",
+                  "name_en": "Islamic Education",
+                  "name_ar": "التربية الإسلامية"
+                },
+                "weeklyHours": 1,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "civic_education",
+                "name": {
+                  "name_fr": "Éducation Civique",
+                  "name_en": "Civic Education",
+                  "name_ar": "التربية المدنية"
+                },
+                "weeklyHours": 1,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "art_education",
+                "name": {
+                  "name_fr": "Éducation Plastique",
+                  "name_en": "Visual Arts Education",
+                  "name_ar": "التربية التشكيلية"
+                },
+                "weeklyHours": 1,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "music_education",
+                "name": {
+                  "name_fr": "Éducation Musicale",
+                  "name_en": "Music Education",
+                  "name_ar": "التربية الموسيقية"
+                },
+                "weeklyHours": 1,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique et Sportive",
+                  "name_en": "Physical and Sports Education",
+                  "name_ar": "التربية البدنية والرياضية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "modulesCount": 12,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 29,
+            "modules": [
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 5,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "english_language",
+                "name": {
+                  "name_fr": "Langue Anglaise",
+                  "name_en": "English Language",
+                  "name_ar": "اللغة الإنجليزية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 1
+              },
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 4,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "natural_sciences",
+                "name": {
+                  "name_fr": "Sciences de la Nature et de la Vie",
+                  "name_en": "Natural and Life Sciences",
+                  "name_ar": "علوم الطبيعة والحياة"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "physics_technology",
+                "name": {
+                  "name_fr": "Physique et Technologie",
+                  "name_en": "Physics and Technology",
+                  "name_ar": "الفيزياء والتكنولوجيا"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "islamic_education",
+                "name": {
+                  "name_fr": "Éducation Islamique",
+                  "name_en": "Islamic Education",
+                  "name_ar": "التربية الإسلامية"
+                },
+                "weeklyHours": 1,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "civic_education",
+                "name": {
+                  "name_fr": "Éducation Civique",
+                  "name_en": "Civic Education",
+                  "name_ar": "التربية المدنية"
+                },
+                "weeklyHours": 1,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "art_education",
+                "name": {
+                  "name_fr": "Éducation Plastique",
+                  "name_en": "Visual Arts Education",
+                  "name_ar": "التربية التشكيلية"
+                },
+                "weeklyHours": 1,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "music_education",
+                "name": {
+                  "name_fr": "Éducation Musicale",
+                  "name_en": "Music Education",
+                  "name_ar": "التربية الموسيقية"
+                },
+                "weeklyHours": 1,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique et Sportive",
+                  "name_en": "Physical and Sports Education",
+                  "name_ar": "التربية البدنية والرياضية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "modulesCount": 12,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 30,
+            "modules": [
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 5,
+                "obligatory": true,
+                "coeficient": 5
+              },
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "english_language",
+                "name": {
+                  "name_fr": "Langue Anglaise",
+                  "name_en": "English Language",
+                  "name_ar": "اللغة الإنجليزية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 2
+              },
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 4,
+                "obligatory": true,
+                "coeficient": 4
+              },
+              {
+                "id": "natural_sciences",
+                "name": {
+                  "name_fr": "Sciences de la Nature et de la Vie",
+                  "name_en": "Natural and Life Sciences",
+                  "name_ar": "علوم الطبيعة والحياة"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "physics_technology",
+                "name": {
+                  "name_fr": "Physique et Technologie",
+                  "name_en": "Physics and Technology",
+                  "name_ar": "الفيزياء والتكنولوجيا"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "islamic_education",
+                "name": {
+                  "name_fr": "Éducation Islamique",
+                  "name_en": "Islamic Education",
+                  "name_ar": "التربية الإسلامية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "civic_education",
+                "name": {
+                  "name_fr": "Éducation Civique",
+                  "name_en": "Civic Education",
+                  "name_ar": "التربية المدنية"
+                },
+                "weeklyHours": 1,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "art_education",
+                "name": {
+                  "name_fr": "Éducation Plastique",
+                  "name_en": "Visual Arts Education",
+                  "name_ar": "التربية التشكيلية"
+                },
+                "weeklyHours": 1,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "music_education",
+                "name": {
+                  "name_fr": "Éducation Musicale",
+                  "name_en": "Music Education",
+                  "name_ar": "التربية الموسيقية"
+                },
+                "weeklyHours": 1,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique et Sportive",
+                  "name_en": "Physical and Sports Education",
+                  "name_ar": "التربية البدنية والرياضية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "lycee": {
+    "specialities": [
+      {
+        "name": {
+          "name_fr": "Tronc Commun Sciences et Technologie",
+          "name_en": "Common Core for Science and Technology",
+          "name_ar": "جذع مشترك علوم وتكنولوجيا"
+        },
+        "levelsCount": 1,
+        "levels": [
+          {
+            "level": 1,
+            "modulesCount": 12,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 33,
+            "modules": [
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 5,
+                "obligatory": true,
+                "coeficient": 4
+              },
+              {
+                "id": "physics",
+                "name": {
+                  "name_fr": "Sciences Physiques",
+                  "name_en": "Physical Sciences",
+                  "name_ar": "العلوم الفيزيائية"
+                },
+                "weeklyHours": 4,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "natural_sciences",
+                "name": {
+                  "name_fr": "Sciences Naturelles",
+                  "name_en": "Natural Sciences",
+                  "name_ar": "العلوم الطبيعية"
+                },
+                "weeklyHours": 4,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "technology",
+                "name": {
+                  "name_fr": "Technologie",
+                  "name_en": "Technology",
+                  "name_ar": "تكنولوجيا"
+                },
+                "weeklyHours": 4,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "english_language",
+                "name": {
+                  "name_fr": "Langue Anglaise",
+                  "name_en": "English Language",
+                  "name_ar": "اللغة الإنجليزية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "islamic_sciences",
+                "name": {
+                  "name_fr": "Sciences Islamiques",
+                  "name_en": "Islamic Sciences",
+                  "name_ar": "العلوم الإسلامية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "art_education",
+                "name": {
+                  "name_fr": "Éducation Artistique",
+                  "name_en": "Artistic Education",
+                  "name_ar": "تربية فنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique",
+                  "name_en": "Physical Education",
+                  "name_ar": "التربية البدنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": {
+          "name_fr": "Tronc Commun Lettres",
+          "name_en": "Common Core for Arts",
+          "name_ar": "جذع مشترك آداب"
+        },
+        "levelsCount": 1,
+        "levels": [
+          {
+            "level": 1,
+            "modulesCount": 11,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 30,
+            "modules": [
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 5,
+                "obligatory": true,
+                "coeficient": 4
+              },
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 4,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "english_language",
+                "name": {
+                  "name_fr": "Langue Anglaise",
+                  "name_en": "English Language",
+                  "name_ar": "اللغة الإنجليزية"
+                },
+                "weeklyHours": 4,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "physics",
+                "name": {
+                  "name_fr": "Sciences Physiques",
+                  "name_en": "Physical Sciences",
+                  "name_ar": "العلوم الفيزيائية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "natural_sciences",
+                "name": {
+                  "name_fr": "Sciences Naturelles",
+                  "name_en": "Natural Sciences",
+                  "name_ar": "العلوم الطبيعية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "islamic_sciences",
+                "name": {
+                  "name_fr": "Sciences Islamiques",
+                  "name_en": "Islamic Sciences",
+                  "name_ar": "العلوم الإسلامية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "art_education",
+                "name": {
+                  "name_fr": "Éducation Artistique",
+                  "name_en": "Artistic Education",
+                  "name_ar": "تربية فنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique",
+                  "name_en": "Physical Education",
+                  "name_ar": "التربية البدنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": {
+          "name_fr": "Sciences Expérimentales",
+          "name_en": "Experimental Sciences",
+          "name_ar": "علوم تجريبية"
+        },
+        "levelsCount": 2,
+        "levels": [
+          {
+            "level": 2,
+            "modulesCount": 11,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 31,
+            "modules": [
+              {
+                "id": "natural_sciences",
+                "name": {
+                  "name_fr": "Sciences Naturelles",
+                  "name_en": "Natural Sciences",
+                  "name_ar": "العلوم الطبيعية"
+                },
+                "weeklyHours": 5,
+                "obligatory": true,
+                "coeficient": 4
+              },
+              {
+                "id": "physics_chemistry",
+                "name": {
+                  "name_fr": "Physique - Chimie",
+                  "name_en": "Physics - Chemistry",
+                  "name_ar": "الفيزياء - الكيمياء"
+                },
+                "weeklyHours": 5,
+                "obligatory": true,
+                "coeficient": 4
+              },
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 5,
+                "obligatory": true,
+                "coeficient": 4
+              },
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "english_language",
+                "name": {
+                  "name_fr": "Langue Anglaise",
+                  "name_en": "English Language",
+                  "name_ar": "اللغة الإنجليزية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "islamic_sciences",
+                "name": {
+                  "name_fr": "Sciences Islamiques",
+                  "name_en": "Islamic Sciences",
+                  "name_ar": "العلوم الإسلامية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "philosophy",
+                "name": {
+                  "name_fr": "Philosophie",
+                  "name_en": "Philosophy",
+                  "name_ar": "الفلسفة"
+                },
+                "weeklyHours": 1,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique",
+                  "name_en": "Physical Education",
+                  "name_ar": "التربية البدنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "modulesCount": 11,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 30.5,
+            "modules": [
+              {
+                "id": "natural_sciences",
+                "name": {
+                  "name_fr": "Sciences Naturelles",
+                  "name_en": "Natural Sciences",
+                  "name_ar": "العلوم الطبيعية"
+                },
+                "weeklyHours": 4.5,
+                "obligatory": true,
+                "coeficient": 6
+              },
+              {
+                "id": "physics_chemistry",
+                "name": {
+                  "name_fr": "Physique - Chimie",
+                  "name_en": "Physics - Chemistry",
+                  "name_ar": "الفيزياء - الكيمياء"
+                },
+                "weeklyHours": 5,
+                "obligatory": true,
+                "coeficient": 5
+              },
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 5,
+                "obligatory": true,
+                "coeficient": 5
+              },
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "english_language",
+                "name": {
+                  "name_fr": "Langue Anglaise",
+                  "name_en": "English Language",
+                  "name_ar": "اللغة الإنجليزية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "islamic_sciences",
+                "name": {
+                  "name_fr": "Sciences Islamiques",
+                  "name_en": "Islamic Sciences",
+                  "name_ar": "العلوم الإسلامية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "philosophy",
+                "name": {
+                  "name_fr": "Philosophie",
+                  "name_en": "Philosophy",
+                  "name_ar": "الفلسفة"
+                },
+                "weeklyHours": 1,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique",
+                  "name_en": "Physical Education",
+                  "name_ar": "التربية البدنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": {
+          "name_fr": "Mathématiques",
+          "name_en": "Mathematics",
+          "name_ar": "رياضيات"
+        },
+        "levelsCount": 2,
+        "levels": [
+          {
+            "level": 2,
+            "modulesCount": 11,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 31,
+            "modules": [
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 7,
+                "obligatory": true,
+                "coeficient": 6
+              },
+              {
+                "id": "physics_chemistry",
+                "name": {
+                  "name_fr": "Physique - Chimie",
+                  "name_en": "Physics - Chemistry",
+                  "name_ar": "الفيزياء - الكيمياء"
+                },
+                "weeklyHours": 5,
+                "obligatory": true,
+                "coeficient": 4
+              },
+              {
+                "id": "natural_sciences",
+                "name": {
+                  "name_fr": "Sciences Naturelles",
+                  "name_en": "Natural Sciences",
+                  "name_ar": "العلوم الطبيعية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "english_language",
+                "name": {
+                  "name_fr": "Langue Anglaise",
+                  "name_en": "English Language",
+                  "name_ar": "اللغة الإنجليزية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "islamic_sciences",
+                "name": {
+                  "name_fr": "Sciences Islamiques",
+                  "name_en": "Islamic Sciences",
+                  "name_ar": "العلوم الإسلامية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "philosophy",
+                "name": {
+                  "name_fr": "Philosophie",
+                  "name_en": "Philosophy",
+                  "name_ar": "الفلسفة"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique",
+                  "name_en": "Physical Education",
+                  "name_ar": "التربية البدنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "modulesCount": 11,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 31,
+            "modules": [
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 7,
+                "obligatory": true,
+                "coeficient": 7
+              },
+              {
+                "id": "physics_chemistry",
+                "name": {
+                  "name_fr": "Physique - Chimie",
+                  "name_en": "Physics - Chemistry",
+                  "name_ar": "الفيزياء - الكيمياء"
+                },
+                "weeklyHours": 5,
+                "obligatory": true,
+                "coeficient": 6
+              },
+              {
+                "id": "natural_sciences",
+                "name": {
+                  "name_fr": "Sciences Naturelles",
+                  "name_en": "Natural Sciences",
+                  "name_ar": "العلوم الطبيعية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "english_language",
+                "name": {
+                  "name_fr": "Langue Anglaise",
+                  "name_en": "English Language",
+                  "name_ar": "اللغة الإنجليزية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "islamic_sciences",
+                "name": {
+                  "name_fr": "Sciences Islamiques",
+                  "name_en": "Islamic Sciences",
+                  "name_ar": "العلوم الإسلامية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "philosophy",
+                "name": {
+                  "name_fr": "Philosophie",
+                  "name_en": "Philosophy",
+                  "name_ar": "الفلسفة"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique",
+                  "name_en": "Physical Education",
+                  "name_ar": "التربية البدنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": {
+          "name_fr": "Technique Mathématique (Génie Électrique)",
+          "name_en": "Mathematical Technical (Electrical Engineering)",
+          "name_ar": "تقني رياضي (هندسة كهربائية)"
+        },
+        "levelsCount": 2,
+        "levels": [
+          {
+            "level": 2,
+            "modulesCount": 10,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 33,
+            "modules": [
+              {
+                "id": "electrical_engineering",
+                "name": {
+                  "name_fr": "Génie Électrique",
+                  "name_en": "Electrical Engineering",
+                  "name_ar": "هندسة كهربائية"
+                },
+                "weeklyHours": 8,
+                "obligatory": true,
+                "coeficient": 6
+              },
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 6,
+                "obligatory": true,
+                "coeficient": 5
+              },
+              {
+                "id": "physics_chemistry",
+                "name": {
+                  "name_fr": "Physique - Chimie",
+                  "name_en": "Physics - Chemistry",
+                  "name_ar": "الفيزياء - الكيمياء"
+                },
+                "weeklyHours": 6,
+                "obligatory": true,
+                "coeficient": 5
+              },
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "english_language",
+                "name": {
+                  "name_fr": "Langue Anglaise",
+                  "name_en": "English Language",
+                  "name_ar": "اللغة الإنجليزية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "islamic_sciences",
+                "name": {
+                  "name_fr": "Sciences Islamiques",
+                  "name_en": "Islamic Sciences",
+                  "name_ar": "العلوم الإسلامية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique",
+                  "name_en": "Physical Education",
+                  "name_ar": "التربية البدنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "modulesCount": 11,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 34,
+            "modules": [
+              {
+                "id": "electrical_engineering",
+                "name": {
+                  "name_fr": "Génie Électrique",
+                  "name_en": "Electrical Engineering",
+                  "name_ar": "هندسة كهربائية"
+                },
+                "weeklyHours": 8,
+                "obligatory": true,
+                "coeficient": 7
+              },
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 6,
+                "obligatory": true,
+                "coeficient": 6
+              },
+              {
+                "id": "physics_chemistry",
+                "name": {
+                  "name_fr": "Physique - Chimie",
+                  "name_en": "Physics - Chemistry",
+                  "name_ar": "الفيزياء - الكيمياء"
+                },
+                "weeklyHours": 6,
+                "obligatory": true,
+                "coeficient": 6
+              },
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "english_language",
+                "name": {
+                  "name_fr": "Langue Anglaise",
+                  "name_en": "English Language",
+                  "name_ar": "اللغة الإنجليزية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "philosophy",
+                "name": {
+                  "name_fr": "Philosophie",
+                  "name_en": "Philosophy",
+                  "name_ar": "الفلسفة"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "islamic_sciences",
+                "name": {
+                  "name_fr": "Sciences Islamiques",
+                  "name_en": "Islamic Sciences",
+                  "name_ar": "العلوم الإسلامية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique",
+                  "name_en": "Physical Education",
+                  "name_ar": "التربية البدنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": {
+          "name_fr": "Technique Mathématique (Génie Mécanique)",
+          "name_en": "Mathematical Technical (Mechanical Engineering)",
+          "name_ar": "تقني رياضي (هندسة ميكانيكية)"
+        },
+        "levelsCount": 2,
+        "levels": [
+          {
+            "level": 2,
+            "modulesCount": 10,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 33,
+            "modules": [
+              {
+                "id": "mechanical_engineering",
+                "name": {
+                  "name_fr": "Génie Mécanique",
+                  "name_en": "Mechanical Engineering",
+                  "name_ar": "هندسة ميكانيكية"
+                },
+                "weeklyHours": 8,
+                "obligatory": true,
+                "coeficient": 6
+              },
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 6,
+                "obligatory": true,
+                "coeficient": 5
+              },
+              {
+                "id": "physics_chemistry",
+                "name": {
+                  "name_fr": "Physique - Chimie",
+                  "name_en": "Physics - Chemistry",
+                  "name_ar": "الفيزياء - الكيمياء"
+                },
+                "weeklyHours": 6,
+                "obligatory": true,
+                "coeficient": 5
+              },
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "english_language",
+                "name": {
+                  "name_fr": "Langue Anglaise",
+                  "name_en": "English Language",
+                  "name_ar": "اللغة الإنجليزية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "islamic_sciences",
+                "name": {
+                  "name_fr": "Sciences Islamiques",
+                  "name_en": "Islamic Sciences",
+                  "name_ar": "العلوم الإسلامية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique",
+                  "name_en": "Physical Education",
+                  "name_ar": "التربية البدنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "modulesCount": 11,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 34,
+            "modules": [
+              {
+                "id": "mechanical_engineering",
+                "name": {
+                  "name_fr": "Génie Mécanique",
+                  "name_en": "Mechanical Engineering",
+                  "name_ar": "هندسة ميكانيكية"
+                },
+                "weeklyHours": 8,
+                "obligatory": true,
+                "coeficient": 7
+              },
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 6,
+                "obligatory": true,
+                "coeficient": 6
+              },
+              {
+                "id": "physics_chemistry",
+                "name": {
+                  "name_fr": "Physique - Chimie",
+                  "name_en": "Physics - Chemistry",
+                  "name_ar": "الفيزياء - الكيمياء"
+                },
+                "weeklyHours": 6,
+                "obligatory": true,
+                "coeficient": 6
+              },
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "english_language",
+                "name": {
+                  "name_fr": "Langue Anglaise",
+                  "name_en": "English Language",
+                  "name_ar": "اللغة الإنجليزية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "philosophy",
+                "name": {
+                  "name_fr": "Philosophie",
+                  "name_en": "Philosophy",
+                  "name_ar": "الفلسفة"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "islamic_sciences",
+                "name": {
+                  "name_fr": "Sciences Islamiques",
+                  "name_en": "Islamic Sciences",
+                  "name_ar": "العلوم الإسلامية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique",
+                  "name_en": "Physical Education",
+                  "name_ar": "التربية البدنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": {
+          "name_fr": "Technique Mathématique (Génie Civil)",
+          "name_en": "Mathematical Technical (Civil Engineering)",
+          "name_ar": "تقني رياضي (هندسة مدنية)"
+        },
+        "levelsCount": 2,
+        "levels": [
+          {
+            "level": 2,
+            "modulesCount": 10,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 33,
+            "modules": [
+              {
+                "id": "civil_engineering",
+                "name": {
+                  "name_fr": "Génie Civil",
+                  "name_en": "Civil Engineering",
+                  "name_ar": "هندسة مدنية"
+                },
+                "weeklyHours": 8,
+                "obligatory": true,
+                "coeficient": 6
+              },
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 6,
+                "obligatory": true,
+                "coeficient": 5
+              },
+              {
+                "id": "physics_chemistry",
+                "name": {
+                  "name_fr": "Physique - Chimie",
+                  "name_en": "Physics - Chemistry",
+                  "name_ar": "الفيزياء - الكيمياء"
+                },
+                "weeklyHours": 6,
+                "obligatory": true,
+                "coeficient": 5
+              },
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "english_language",
+                "name": {
+                  "name_fr": "Langue Anglaise",
+                  "name_en": "English Language",
+                  "name_ar": "اللغة الإنجليزية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "islamic_sciences",
+                "name": {
+                  "name_fr": "Sciences Islamiques",
+                  "name_en": "Islamic Sciences",
+                  "name_ar": "العلوم الإسلامية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique",
+                  "name_en": "Physical Education",
+                  "name_ar": "التربية البدنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "modulesCount": 11,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 34,
+            "modules": [
+              {
+                "id": "civil_engineering",
+                "name": {
+                  "name_fr": "Génie Civil",
+                  "name_en": "Civil Engineering",
+                  "name_ar": "هندسة مدنية"
+                },
+                "weeklyHours": 8,
+                "obligatory": true,
+                "coeficient": 7
+              },
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 6,
+                "obligatory": true,
+                "coeficient": 6
+              },
+              {
+                "id": "physics_chemistry",
+                "name": {
+                  "name_fr": "Physique - Chimie",
+                  "name_en": "Physics - Chemistry",
+                  "name_ar": "الفيزياء - الكيمياء"
+                },
+                "weeklyHours": 6,
+                "obligatory": true,
+                "coeficient": 6
+              },
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "english_language",
+                "name": {
+                  "name_fr": "Langue Anglaise",
+                  "name_en": "English Language",
+                  "name_ar": "اللغة الإنجليزية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "philosophy",
+                "name": {
+                  "name_fr": "Philosophie",
+                  "name_en": "Philosophy",
+                  "name_ar": "الفلسفة"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "islamic_sciences",
+                "name": {
+                  "name_fr": "Sciences Islamiques",
+                  "name_en": "Islamic Sciences",
+                  "name_ar": "العلوم الإسلامية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique",
+                  "name_en": "Physical Education",
+                  "name_ar": "التربية البدنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": {
+          "name_fr": "Technique Mathématique (Génie des Procédés)",
+          "name_en": "Mathematical Technical (Process Engineering)",
+          "name_ar": "تقني رياضي (هندسة الطرائق)"
+        },
+        "levelsCount": 2,
+        "levels": [
+          {
+            "level": 2,
+            "modulesCount": 10,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 33,
+            "modules": [
+              {
+                "id": "process_engineering",
+                "name": {
+                  "name_fr": "Génie des Procédés",
+                  "name_en": "Process Engineering",
+                  "name_ar": "هندسة الطرائق"
+                },
+                "weeklyHours": 8,
+                "obligatory": true,
+                "coeficient": 6
+              },
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 6,
+                "obligatory": true,
+                "coeficient": 5
+              },
+              {
+                "id": "physics_chemistry",
+                "name": {
+                  "name_fr": "Physique - Chimie",
+                  "name_en": "Physics - Chemistry",
+                  "name_ar": "الفيزياء - الكيمياء"
+                },
+                "weeklyHours": 6,
+                "obligatory": true,
+                "coeficient": 5
+              },
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "english_language",
+                "name": {
+                  "name_fr": "Langue Anglaise",
+                  "name_en": "English Language",
+                  "name_ar": "اللغة الإنجليزية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "islamic_sciences",
+                "name": {
+                  "name_fr": "Sciences Islamiques",
+                  "name_en": "Islamic Sciences",
+                  "name_ar": "العلوم الإسلامية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique",
+                  "name_en": "Physical Education",
+                  "name_ar": "التربية البدنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "modulesCount": 11,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 34,
+            "modules": [
+              {
+                "id": "process_engineering",
+                "name": {
+                  "name_fr": "Génie des Procédés",
+                  "name_en": "Process Engineering",
+                  "name_ar": "هندسة الطرائق"
+                },
+                "weeklyHours": 8,
+                "obligatory": true,
+                "coeficient": 7
+              },
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 6,
+                "obligatory": true,
+                "coeficient": 6
+              },
+              {
+                "id": "physics_chemistry",
+                "name": {
+                  "name_fr": "Physique - Chimie",
+                  "name_en": "Physics - Chemistry",
+                  "name_ar": "الفيزياء - الكيمياء"
+                },
+                "weeklyHours": 6,
+                "obligatory": true,
+                "coeficient": 6
+              },
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "english_language",
+                "name": {
+                  "name_fr": "Langue Anglaise",
+                  "name_en": "English Language",
+                  "name_ar": "اللغة الإنجليزية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "philosophy",
+                "name": {
+                  "name_fr": "Philosophie",
+                  "name_en": "Philosophy",
+                  "name_ar": "الفلسفة"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "islamic_sciences",
+                "name": {
+                  "name_fr": "Sciences Islamiques",
+                  "name_en": "Islamic Sciences",
+                  "name_ar": "العلوم الإسلامية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique",
+                  "name_en": "Physical Education",
+                  "name_ar": "التربية البدنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": {
+          "name_fr": "Gestion et Économie",
+          "name_en": "Management and Economics",
+          "name_ar": "تسيير واقتصاد"
+        },
+        "levelsCount": 2,
+        "levels": [
+          {
+            "level": 2,
+            "modulesCount": 11,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 32,
+            "modules": [
+              {
+                "id": "management_economics",
+                "name": {
+                  "name_fr": "Économie et Management",
+                  "name_en": "Economics and Management",
+                  "name_ar": "الاقتصاد والمناجمنت"
+                },
+                "weeklyHours": 5,
+                "obligatory": true,
+                "coeficient": 4
+              },
+              {
+                "id": "accounting",
+                "name": {
+                  "name_fr": "Comptabilité et Mathématiques Financières",
+                  "name_en": "Accounting and Financial Math",
+                  "name_ar": "المحاسبة والرياضيات المالية"
+                },
+                "weeklyHours": 4,
+                "obligatory": true,
+                "coeficient": 4
+              },
+              {
+                "id": "law",
+                "name": {
+                  "name_fr": "Droit",
+                  "name_en": "Law",
+                  "name_ar": "القانون"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 4,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "english_language",
+                "name": {
+                  "name_fr": "Langue Anglaise",
+                  "name_en": "English Language",
+                  "name_ar": "اللغة الإنجليزية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "islamic_sciences",
+                "name": {
+                  "name_fr": "Sciences Islamiques",
+                  "name_en": "Islamic Sciences",
+                  "name_ar": "العلوم الإسلامية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique",
+                  "name_en": "Physical Education",
+                  "name_ar": "التربية البدنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "modulesCount": 11,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 32,
+            "modules": [
+              {
+                "id": "accounting",
+                "name": {
+                  "name_fr": "Comptabilité et Gestion Financière",
+                  "name_en": "Accounting and Financial Management",
+                  "name_ar": "التسيير المحاسبي والمالي"
+                },
+                "weeklyHours": 5,
+                "obligatory": true,
+                "coeficient": 6
+              },
+              {
+                "id": "management_economics",
+                "name": {
+                  "name_fr": "Économie et Management",
+                  "name_en": "Economics and Management",
+                  "name_ar": "الاقتصاد والمناجمنت"
+                },
+                "weeklyHours": 4,
+                "obligatory": true,
+                "coeficient": 5
+              },
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 5
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 4,
+                "obligatory": true,
+                "coeficient": 4
+              },
+              {
+                "id": "law",
+                "name": {
+                  "name_fr": "Droit",
+                  "name_en": "Law",
+                  "name_ar": "القانون"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "english_language",
+                "name": {
+                  "name_fr": "Langue Anglaise",
+                  "name_en": "English Language",
+                  "name_ar": "اللغة الإنجليزية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "philosophy",
+                "name": {
+                  "name_fr": "Philosophie",
+                  "name_en": "Philosophy",
+                  "name_ar": "الفلسفة"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique",
+                  "name_en": "Physical Education",
+                  "name_ar": "التربية البدنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": {
+          "name_fr": "Lettres et Philosophie",
+          "name_en": "Arts and Philosophy",
+          "name_ar": "آداب وفلسفة"
+        },
+        "levelsCount": 2,
+        "levels": [
+          {
+            "level": 2,
+            "modulesCount": 10,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 30,
+            "modules": [
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue et Littérature Arabe",
+                  "name_en": "Arabic Language and Literature",
+                  "name_ar": "اللغة العربية وآدابها"
+                },
+                "weeklyHours": 5,
+                "obligatory": true,
+                "coeficient": 5
+              },
+              {
+                "id": "philosophy",
+                "name": {
+                  "name_fr": "Philosophie",
+                  "name_en": "Philosophy",
+                  "name_ar": "الفلسفة"
+                },
+                "weeklyHours": 4,
+                "obligatory": true,
+                "coeficient": 4
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 4,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "english_language",
+                "name": {
+                  "name_fr": "Langue Anglaise",
+                  "name_en": "English Language",
+                  "name_ar": "اللغة الإنجليزية"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "islamic_sciences",
+                "name": {
+                  "name_fr": "Sciences Islamiques",
+                  "name_en": "Islamic Sciences",
+                  "name_ar": "العلوم الإسلامية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "art_education",
+                "name": {
+                  "name_fr": "Éducation Artistique",
+                  "name_en": "Artistic Education",
+                  "name_ar": "تربية فنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique",
+                  "name_en": "Physical Education",
+                  "name_ar": "التربية البدنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "modulesCount": 10,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 30,
+            "modules": [
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue et Littérature Arabe",
+                  "name_en": "Arabic Language and Literature",
+                  "name_ar": "اللغة العربية وآدابها"
+                },
+                "weeklyHours": 5,
+                "obligatory": true,
+                "coeficient": 6
+              },
+              {
+                "id": "philosophy",
+                "name": {
+                  "name_fr": "Philosophie",
+                  "name_en": "Philosophy",
+                  "name_ar": "الفلسفة"
+                },
+                "weeklyHours": 4.5,
+                "obligatory": true,
+                "coeficient": 6
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 4,
+                "obligatory": true,
+                "coeficient": 4
+              },
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "english_language",
+                "name": {
+                  "name_fr": "Langue Anglaise",
+                  "name_en": "English Language",
+                  "name_ar": "اللغة الإنجليزية"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "islamic_sciences",
+                "name": {
+                  "name_fr": "Sciences Islamiques",
+                  "name_en": "Islamic Sciences",
+                  "name_ar": "العلوم الإسلامية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "art_education",
+                "name": {
+                  "name_fr": "Éducation Artistique",
+                  "name_en": "Artistic Education",
+                  "name_ar": "تربية فنية"
+                },
+                "weeklyHours": 1.5,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique",
+                  "name_en": "Physical Education",
+                  "name_ar": "التربية البدنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": {
+          "name_fr": "Langues Étrangères",
+          "name_en": "Foreign Languages",
+          "name_ar": "لغات أجنبية"
+        },
+        "levelsCount": 2,
+        "levels": [
+          {
+            "level": 2,
+            "modulesCount": 10,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 31,
+            "modules": [
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 5,
+                "obligatory": true,
+                "coeficient": 4
+              },
+              {
+                "id": "english_language",
+                "name": {
+                  "name_fr": "Langue Anglaise",
+                  "name_en": "English Language",
+                  "name_ar": "اللغة الإنجليزية"
+                },
+                "weeklyHours": 5,
+                "obligatory": true,
+                "coeficient": 4
+              },
+              {
+                "id": "third_foreign_language",
+                "name": {
+                  "name_fr": "Troisième Langue Étrangère",
+                  "name_en": "Third Foreign Language",
+                  "name_ar": "اللغة الأجنبية الثالثة"
+                },
+                "weeklyHours": 4,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 4,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "islamic_sciences",
+                "name": {
+                  "name_fr": "Sciences Islamiques",
+                  "name_en": "Islamic Sciences",
+                  "name_ar": "العلوم الإسلامية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "art_education",
+                "name": {
+                  "name_fr": "Éducation Artistique",
+                  "name_en": "Artistic Education",
+                  "name_ar": "تربية فنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique",
+                  "name_en": "Physical Education",
+                  "name_ar": "التربية البدنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "modulesCount": 10,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 31,
+            "modules": [
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 5,
+                "obligatory": true,
+                "coeficient": 5
+              },
+              {
+                "id": "english_language",
+                "name": {
+                  "name_fr": "Langue Anglaise",
+                  "name_en": "English Language",
+                  "name_ar": "اللغة الإنجليزية"
+                },
+                "weeklyHours": 5,
+                "obligatory": true,
+                "coeficient": 5
+              },
+              {
+                "id": "third_foreign_language",
+                "name": {
+                  "name_fr": "Troisième Langue Étrangère",
+                  "name_en": "Third Foreign Language",
+                  "name_ar": "اللغة الأجنبية الثالثة"
+                },
+                "weeklyHours": 4,
+                "obligatory": true,
+                "coeficient": 4
+              },
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "philosophy",
+                "name": {
+                  "name_fr": "Philosophie",
+                  "name_en": "Philosophy",
+                  "name_ar": "الفلسفة"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "islamic_sciences",
+                "name": {
+                  "name_fr": "Sciences Islamiques",
+                  "name_en": "Islamic Sciences",
+                  "name_ar": "العلوم الإسلامية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique",
+                  "name_en": "Physical Education",
+                  "name_ar": "التربية البدنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": { "name_fr": "Arts", "name_en": "Arts", "name_ar": "فنون" },
+        "levelsCount": 2,
+        "levels": [
+          {
+            "level": 2,
+            "modulesCount": 11,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 34,
+            "modules": [
+              {
+                "id": "specialty_art",
+                "name": {
+                  "name_fr": "Art de Spécialité",
+                  "name_en": "Specialty Art",
+                  "name_ar": "فن التخصص"
+                },
+                "weeklyHours": 8,
+                "obligatory": true,
+                "coeficient": 6
+              },
+              {
+                "id": "art_history",
+                "name": {
+                  "name_fr": "Histoire de l'Art",
+                  "name_en": "History of Art",
+                  "name_ar": "تاريخ الفن"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "art_culture",
+                "name": {
+                  "name_fr": "Culture Artistique",
+                  "name_en": "Artistic Culture",
+                  "name_ar": "ثقافة فنية"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "english_language",
+                "name": {
+                  "name_fr": "Langue Anglaise",
+                  "name_en": "English Language",
+                  "name_ar": "اللغة الإنجليزية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "islamic_sciences",
+                "name": {
+                  "name_fr": "Sciences Islamiques",
+                  "name_en": "Islamic Sciences",
+                  "name_ar": "العلوم الإسلامية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "mathematics",
+                "name": {
+                  "name_fr": "Mathématiques",
+                  "name_en": "Mathematics",
+                  "name_ar": "الرياضيات"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique",
+                  "name_en": "Physical Education",
+                  "name_ar": "التربية البدنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "modulesCount": 11,
+            "optionalModulesCount": 1,
+            "totalWeeklyHours": 34,
+            "modules": [
+              {
+                "id": "specialty_art",
+                "name": {
+                  "name_fr": "Art de Spécialité",
+                  "name_en": "Specialty Art",
+                  "name_ar": "فن التخصص"
+                },
+                "weeklyHours": 8,
+                "obligatory": true,
+                "coeficient": 6
+              },
+              {
+                "id": "art_history",
+                "name": {
+                  "name_fr": "Histoire de l'Art",
+                  "name_en": "History of Art",
+                  "name_ar": "تاريخ الفن"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "art_culture",
+                "name": {
+                  "name_fr": "Culture Artistique",
+                  "name_en": "Artistic Culture",
+                  "name_ar": "ثقافة فنية"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "philosophy",
+                "name": {
+                  "name_fr": "Philosophie",
+                  "name_en": "Philosophy",
+                  "name_ar": "الفلسفة"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "arabic_language",
+                "name": {
+                  "name_fr": "Langue Arabe",
+                  "name_en": "Arabic Language",
+                  "name_ar": "اللغة العربية"
+                },
+                "weeklyHours": 3,
+                "obligatory": true,
+                "coeficient": 3
+              },
+              {
+                "id": "french_language",
+                "name": {
+                  "name_fr": "Langue Française",
+                  "name_en": "French Language",
+                  "name_ar": "اللغة الفرنسية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "english_language",
+                "name": {
+                  "name_fr": "Langue Anglaise",
+                  "name_en": "English Language",
+                  "name_ar": "اللغة الإنجليزية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "history_geography",
+                "name": {
+                  "name_fr": "Histoire et Géographie",
+                  "name_en": "History and Geography",
+                  "name_ar": "التاريخ والجغرافيا"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "islamic_sciences",
+                "name": {
+                  "name_fr": "Sciences Islamiques",
+                  "name_en": "Islamic Sciences",
+                  "name_ar": "العلوم الإسلامية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 2
+              },
+              {
+                "id": "physical_education",
+                "name": {
+                  "name_fr": "Éducation Physique",
+                  "name_en": "Physical Education",
+                  "name_ar": "التربية البدنية"
+                },
+                "weeklyHours": 2,
+                "obligatory": true,
+                "coeficient": 1
+              },
+              {
+                "id": "amazigh_language",
+                "name": {
+                  "name_fr": "Langue Amazighe",
+                  "name_en": "Amazigh Language",
+                  "name_ar": "اللغة الأمازيغية"
+                },
+                "weeklyHours": 2,
+                "obligatory": false,
+                "coeficient": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

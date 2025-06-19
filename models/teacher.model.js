@@ -2,22 +2,44 @@ import mongoose from "mongoose";
 import Member from "./member.model.js";
 
 const { Schema } = mongoose;
+
+const module = new Schema(
+  {
+    id: { type: String, required: true },
+    hoursPerWeek: { type: Number, required: true, default: 0 },
+  },
+  { _id: false }
+);
 const teacherSchema = new Schema(
   {
     modules: {
-      type: [String],
+      type: [module],
       required: true,
       default: [],
     },
     currentGroups: {
-      type: [String],
+      type: [
+        {
+          groupId: { type: String, required: true },
+          moduleId: { type: String, required: true },
+        },
+      ],
       default: [],
     },
     teachingHistory: {
       type: [
         {
           groupId: { type: String, required: true },
-          season: { type: String, required: true },
+          moduleId: { type: String, required: true },
+          reason: {
+            type: String,
+            enum: ["assigned", "removed"],
+            required: true,
+          },
+          timestamp: {
+            type: Date,
+            default: Date.now,
+          },
         },
       ],
       default: [],

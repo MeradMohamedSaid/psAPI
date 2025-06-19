@@ -18,37 +18,25 @@ headmasterRouter.get("/", authenticateHeadMaster, async (req, res) => {
 
 headmasterRouter.post("/member", authenticateHeadMaster, async (req, res) => {
   try {
-    const {
-      username,
-      password,
-      role,
-      full_name,
-      phone_number,
-      national_ID,
-      email,
-    } = req.body;
+    const { username, password, full_name, phone_number, national_ID, email } =
+      req.body;
+
     const schoolId = req.school.schoolId;
-    const fullUsername = `${
-      role === "TEACHER"
-        ? "tr"
-        : role === "STAFF"
-        ? "ad"
-        : role === "STUDENT"
-        ? "st"
-        : "par"
-    }${username}@${req.school.derivationKey}`;
+
+    const fullUsername = `ad${username}@${req.school.derivationKey}`;
+
+    // ✅ Validate required fields
     if (
       !username ||
       !fullUsername ||
       !password ||
-      !role ||
       !full_name ||
       !phone_number ||
       !national_ID ||
       !email ||
       !schoolId
     ) {
-      return res.status(400).json({ error: "All fields are required" });
+      return res.status(400).json({ error: "All fields are required." });
     }
 
     const existing = await Member.findOne({
@@ -58,7 +46,7 @@ headmasterRouter.post("/member", authenticateHeadMaster, async (req, res) => {
     if (existing) {
       return res.status(409).json({
         error:
-          "User with this (fullUsername or email or phone_number or national_ID) already exists",
+          "A member with this username, email, phone number, or national ID already exists.",
         username: fullUsername,
         phone_number,
         email,
@@ -76,18 +64,37 @@ headmasterRouter.post("/member", authenticateHeadMaster, async (req, res) => {
       email,
       fullUsername,
       password: hashedPassword,
-      role,
+      role: "STAFF", // force role to STAFF
       schoolId,
     });
 
     await newMember.save();
 
-    res
-      .status(201)
-      .json({ message: "Member created successfully", member: newMember });
+    res.status(201).json({
+      message: "STAFF member created successfully",
+      member: newMember,
+    });
   } catch (err) {
-    console.log(err);
-    res.status(500).json({ error: "Failed to create member" });
+    console.error(err);
+    res.status(500).json({ error: "Failed to create staff member" });
+  }
+});
+
+headmasterRouter.get("/members", authenticateHeadMaster, async (req, res) => {
+  try {
+    const schoolId = req.school.schoolId;
+
+    const members = await Member.find({ schoolId });
+
+    const sanitizedMembers = members.map((member) => {
+      const { password, __v, updatedAt, fullUsername, ...rest } = member._doc;
+      return rest;
+    });
+
+    res.json(sanitizedMembers);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: "Failed to get members" });
   }
 });
 
@@ -114,6 +121,56 @@ headmasterRouter.get(
     } catch (err) {
       console.error(err);
       res.status(500).json({ error: "Failed to get member info" });
+    }
+  }
+);
+
+headmasterRouter.post(
+  "/school/tabspwds",
+  authenticateHeadMaster,
+  async (req, res) => {
+    try {
+      const { pedagogy, finance, attendance, assets } = req.body;
+
+      const schoolId = req.school.schoolId;
+
+      const school = await School.findById(schoolId);
+
+      if (!school) {
+        return res.status(404).json({ error: "School not found" });
+      }
+
+      if (pedagogy) {
+        const hashed = await bcrypt.hash(pedagogy, 10);
+        school.information.tabspwds.pedagogy = hashed;
+      }
+      if (finance) {
+        const hashed = await bcrypt.hash(finance, 10);
+        school.information.tabspwds.finance = hashed;
+      }
+      if (attendance) {
+        const hashed = await bcrypt.hash(attendance, 10);
+        school.information.tabspwds.attendance = hashed;
+      }
+      if (assets) {
+        const hashed = await bcrypt.hash(assets, 10);
+        school.information.tabspwds.assets = hashed;
+      }
+
+      await school.save();
+
+      res.json({
+        message: "Tab passwords updated successfully",
+        updated: {
+          pedagogy: !!pedagogy,
+          finance: !!finance,
+          attendance: !!attendance,
+          assets: !!assets,
+        },
+      });
+    } catch (err) {
+      console.error(err);
+      res.status(500).json({ error: "Failed to update tab passwords" });
     }
   }
 );

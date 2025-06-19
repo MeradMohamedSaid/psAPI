@@ -113,31 +113,35 @@ authRouter.post("/login", async (req, res) => {
   }
 });
 
-// refresh access token
 authRouter.post("/handshake", (req, res) => {
   const token = req.cookies.token;
   if (!token) return res.status(401).json({ error: "No refresh token" });
 
   try {
     const decode = jwt.verify(token, JWT_REFRESH_SECRET);
-    const newAccessToken = jwt.sign(
-      {
-        schoolId: decode.school_id,
-        role: decode.role,
-        derivationKey: decode.derivationKey,
-      },
-      JWT_SECRET,
-      {
-        expiresIn: "3d",
-      }
-    );
-    res.json({ accessToken: newAccessToken });
+    const { exp, iat, ...payload } = decode;
+    const newAccessToken = jwt.sign(payload, JWT_SECRET, { expiresIn: "3d" });
+
+    const newRefreshToken = jwt.sign(payload, JWT_REFRESH_SECRET, {
+      expiresIn: "7d",
+    });
+
+    res.cookie("token", newRefreshToken, {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === "production",
+      sameSite: "Strict",
+    });
+    res.json({
+      accessToken: newAccessToken,
+      refreshToken: newRefreshToken,
+    });
   } catch (err) {
     if (err.name === "TokenExpiredError") {
       return res
         .status(401)
         .json({ error: "Refresh token expired. Please login again." });
     }
+    console.log(err);
 
     return res.status(403).json({ error: "Invalid refresh token" });
   }
@@ -158,7 +162,7 @@ authRouter.get("/me", authenticate, async (req, res) => {
     var school;
     if (req.role !== "HEADMASTER") {
       school = await School.findById(req.school.schoolId).select(
-        "-auth -subscriptions"
+        "-auth -subscriptions -information.tabspwds"
       );
     } else {
       school = await School.findById(req.school.schoolId).select(

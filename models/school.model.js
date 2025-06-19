@@ -8,6 +8,45 @@ const locationSchema = new Schema(
   },
   { _id: false }
 );
+const parametersSchema = new Schema(
+  {
+    specilaities: {
+      type: [String],
+      default: [],
+    },
+    amazigh: { type: Boolean, default: false },
+  },
+  { _id: false }
+);
+const tabspwdsSchema = new Schema(
+  {
+    pedagogy: {
+      type: String,
+      default: "",
+    },
+    finance: {
+      type: String,
+      default: "",
+    },
+    attendance: {
+      type: String,
+      default: "",
+    },
+    assets: {
+      type: String,
+      default: "",
+    },
+  },
+  { _id: false }
+);
+
+tabspwdsSchema.pre("save", function (next) {
+  if (!this.pedagogy) this.pedagogy = "";
+  if (!this.finance) this.finance = "";
+  if (!this.attendance) this.attendance = "";
+  if (!this.assets) this.assets = "";
+  next();
+});
 
 const informationSchema = new Schema(
   {
@@ -20,6 +59,14 @@ const informationSchema = new Schema(
     location: {
       type: locationSchema,
       required: [true, "Location is required"],
+    },
+    type: {
+      type: String,
+      enum: ["primaire", "cem", "lycee"],
+      required: [true, "School Type is required"],
+    },
+    tabspwds: {
+      type: tabspwdsSchema,
     },
   },
   { _id: false }
@@ -147,6 +194,9 @@ const schoolSchema = new Schema(
         plan: null,
         history: [],
       },
+    },
+    parameters: {
+      type: parametersSchema,
     },
 
     auth: { type: authSchema, required: [true, "Auth Schema is required"] },

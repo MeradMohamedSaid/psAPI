@@ -9,6 +9,7 @@ import studentsRouter from "./routes/students.routes.js";
 import teachersRouter from "./routes/teachers.routes.js";
 import errorMiddleware from "./middlewares/error.middleware.js";
 import pedagogyRouter from "./routes/pedagogy.routes.js";
+import helpRouter from "./routes/help.routes.js";
 const app = express();
 
 app.use(express.json());
@@ -18,7 +19,8 @@ app.use(cookieParser());
 app.use("/api/v1/auth", authRouter);
 app.use("/api/head/", headmasterRouter);
 app.use("/api/teacher/", teachersRouter);
-app.use("/api/staff/", pedagogyRouter);
+app.use("/api/staff/pedagogy", pedagogyRouter);
+app.use("/api/help", helpRouter);
 app.use(errorMiddleware);
 app.get("/", (req, res) => {
   res.send("Hello, World!");
